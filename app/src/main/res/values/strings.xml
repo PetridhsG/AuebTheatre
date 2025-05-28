@@ -1,0 +1,226 @@
+<resources>
+    <!-- General string -->
+    <string name="app_name">AUEB Theatre</string>
+    <string name="top_app_bar_title">AUEB Theatre</string>
+
+    <!-- Home frame message -->
+    <string name="home_help_text">"How can I help you?"</string>
+    <string name="home_learn_about_theatre_message"> Learn About Our Theatre</string>
+    <string name="home_learn_about_plays_message"> Learn About Our Plays</string>
+    <string name="home_book_tickets_message"> Book Your Tickets Now"</string>
+    <string name="home_check_tickets_message"> View Or Cancel Reservations</string>
+    <string name="home_contact_message"> Contact With A Representative</string>
+    <string name="home_chat_message">Start Conversation</string>
+
+    <!-- Chatbot frame initial messages -->
+    <string name="chatbot_type_your_text_message">"Type your message"</string>
+    <string name="cnatbot_learn_about_theatre_message">I want to learn about the theatre</string>
+    <string name="cnatbot_learn_about_plays_message">Can you tell me about the plays?</string>
+    <string name="cnatbot_book_tickets_message">"I’d like to book some tickets"</string>
+    <string name="cnatbot_check_tickets_message">"I want to check my tickets."</string>
+    <string name="cnatbot_contact_message">I want to contact a representative.</string>
+
+    <!-- Cancel booking alert dialog -->
+    <string name="cancel_booking_alert_dialog_informative_text">Are you sure you want to cancel your booking? All selected details will be lost.</string>
+    <string name="cancel_booking_alert_dialog_positive_text">Yes, Cancel</string>
+    <string name="cancel_booking_alert_dialog_negative_text">No, Go Back</string>
+
+    <!-- Confirm booking alert dialog -->
+    <string name="confirm_booking_alert_dialog_informative_text">Do you wish to confirm this booking? Please ensure all information is correct.</string>
+    <string name="confirm_booking_alert_dialog_positive_text">Confirm</string>
+    <string name="confirm_booking_alert_dialog_negative_text">Edit Details</string>
+
+    <!-- Cancel ticket alert dialog -->
+    <string name="cancel_ticket_alert_dialog_informative_text">Are you sure you want to cancel this ticket? This action cannot be undone.</string>
+    <string name="cancel_ticket_alert_dialog_positive_text">Cancel Ticket</string>
+    <string name="cancel_ticket_alert_dialog_negative_text">Keep Ticket</string>
+
+    <!-- Seat selection bottom sheet frame -->
+    <string name="bottom_sheet_seat_selection_frame_select_seats_text">Select your seat </string>
+    <string name="bottom_sheet_seat_selection_frame_seat_limit_text">Choose up to 4 seats</string>
+
+    <!-- User info bottom sheet frame -->
+    <string name="bottom_sheet_user_info_frame_enter_details_text">Enter your details</string>
+    <string name="bottom_sheet_user_info_frame_close_icon_content_description">Close</string>
+
+    <!-- Name Field -->
+    <string name="bottom_sheet_user_info_frame_label_name">Name</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_name">Enter your name</string>
+
+    <!-- Surname Field -->
+    <string name="bottom_sheet_user_info_frame_label_surname">Surname</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_surname">Enter your surname</string>
+
+    <!-- Email Field -->
+    <string name="bottom_sheet_user_info_frame_label_email">Email</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_email">Enter your email address</string>
+
+    <!-- Telephone Field -->
+    <string name="bottom_sheet_user_info_frame_label_telephone">Telephone</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_telephone">Enter your phone number</string>
+
+    <!-- Button -->
+    <string name="bottom_sheet_user_info_frame_button_proceed_to_payment">Proceed to Payment</string>
+
+    <!-- Checkout bottom sheet frame -->
+    <string name="bottom_sheet_checkout_frame_title">Checkout</string>
+    <string name="bottom_sheet_checkout_frame_total">Total: €%1$d</string>
+
+    <!-- Cardholder Name -->
+    <string name="bottom_sheet_checkout_frame_label_cardholder_name">Cardholder Name</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_cardholder_name">Enter Cardholder Name</string>
+
+    <!-- Card Number -->
+    <string name="bottom_sheet_checkout_frame_label_card_number">Card Number</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_card_number">Enter Card Number</string>
+
+    <!-- Expiry Date -->
+    <string name="bottom_sheet_checkout_frame_label_expiry_date">Expiry Date (MM/YY)</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_expiry_date">MM/YY</string>
+
+    <!-- CVV -->
+    <string name="bottom_sheet_checkout_frame_label_cvv">CVV</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_cvv">Enter CVV</string>
+
+    <!-- Button -->
+    <string name="bottom_sheet_checkout_frame_confirm_payment">Confirm Payment</string>
+
+    <!-- View tickets bottom sheet frame -->
+    <!-- Top bar -->
+    <string name="bottom_sheet_view_reservations_frame_title"> Your Reservations</string>
+
+    <!-- Empty state -->
+    <string name="bottom_sheet_view_reservations_frame_no_reservations">You have no reservations yet.</string>
+
+    <!-- Card content -->
+    <string name="bottom_sheet_view_reservations_frame_card_performance">🎭 %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_delete_icon_content_description">Delete Ticket</string>
+    <string name="bottom_sheet_view_reservations_frame_card_room">📍 Room: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_seat">🪑 Seat: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_date">📅 Date: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_time">⏰ Time: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_name">👤 Name: %1$s</string>
+
+    <!-- Validators -->
+    <string name="validator_name_blank">Name can\'t be blank</string>
+    <string name="validator_name_too_short">Name must be at least 4 characters</string>
+
+    <string name="validator_surname_blank">Surname can\'t be blank</string>
+    <string name="validator_surname_too_short">Surname must be at least 4 characters</string>
+
+    <string name="validator_email_blank">Email can\'t be blank</string>
+    <string name="validator_email_invalid">Invalid email format</string>
+
+    <string name="validator_telephone_blank">Phone number can\'t be blank</string>
+    <string name="validator_telephone_too_short">Phone number is too short</string>
+    <string name="validator_telephone_invalid_chars">Phone number must contain only digits</string>
+
+    <string name="validator_card_number_blank">Card number can\'t be blank</string>
+    <string name="validator_card_number_invalid">Card number must be 16 digits</string>
+
+    <string name="validator_expiry_date_blank">Expiry date can\'t be blank</string>
+    <string name="validator_expiry_date_invalid">Invalid format (MM/YY)</string>
+
+    <string name="validator_cvv_blank">CVV can\'t be blank</string>
+    <string name="validator_cvv_invalid">CVV must be 3 digits</string>
+
+    <string name="validator_cardholder_name_blank">Cardholder name can\'t be blank</string>
+    <string name="validator_cardholder_name_too_short">Must be at least 4 characters</string>
+
+    <!-- Snackbar messages -->
+    <string name="snackbar_reservation_successful">✅ Your reservation was successful!</string>
+    <string name="snackbar_reservation_cancel_successful">✅ Your reservation was successfully canceled.</string>
+
+    <!-- Contact details -->
+    <string name="contact_phone_number">6900000000</string>
+    <string name="contact_email_address">opatheatre@aueb.gr</string>
+    <string name="contact_website">www.aueb.gr</string>
+
+    <string name="chatbot_failed_to_understand_message">It seems that i cant understand! If you want anything more please contact with a representative.</string>
+
+    <!-- Tickets screen -->
+    <string name="bottom_sheet_performance_selection_title">Select a Performance</string>
+    <string name="bottom_sheet_performance_selection_label">Available Performances</string>
+    <string name="bottom_sheet_performance_selection_dropdown">Choose Performance</string>
+    <string name="bottom_sheet_performance_selection_next">Next</string>
+
+    <!-- Chatbot messages -->
+    <string name="chatbot_response_booking_cancelation_message">You have canceled the booking process. If you want to choose another performance just click on the performances or let me know if you want anything else.</string>
+    <string name="chatbot_response_booking_confirmation_message">You have successfully booked your tickets. Let me know if you want something else.</string>
+
+    <!-- System message for the chatbot -->
+    <string name="system_message" translatable="false">
+    You are an intent detector for a theatre assistant chatbot. Your ONLY job is to classify the user\'s intent based on the conversation so far.
+
+     🚫 DO NOT explain your answer.
+     ✅ ONLY respond with a **single-line JSON** object in the exact format below:
+        {
+          "intent": "THEATRE_INFO, PLAYS_INFO, BOOKING, SELECT_PERFORMANCE, PROCEED_TO_BOOKING, VIEW_TICKETS, CONTACT, UNKNOWN"
+        }
+
+    Do not say anything else
+
+    --- INTENT DEFINITIONS ---
+
+    • THEATRE_INFO → User is asking for general information about the theatre.
+      Example: "Can you tell me about the theatre?"
+
+    • PLAYS_INFO → User is asking about the current or upcoming plays.
+      Example: "What plays are you showing?"
+
+    • BOOKING → User wants to book tickets, but hasn’t selected a specific performance yet.
+      Example: "I'd like to book some tickets."
+
+    • SELECT_PERFORMANCE → User selects a specific performance (must match exactly: Hamlet at 18:00, Hamlet at 21:00, Oedipus Rex at 18:00, Oedipus Rex at 21:00).
+      Example: "I want Hamlet at 18:00."
+
+    • PROCEED_TO_BOOKING → User wants to continue with a booking, based on a previous performance selection.
+      Example: "Yes, let's go ahead."
+
+    • VIEW_TICKETS → User asks to view their booked tickets.
+      Example: "Show me my tickets."
+
+    • CONTACT → User wants to contact a theatre representative.
+      Example: "I need to speak to someone" or mentions "contact", "call", "email", etc.
+
+    • UNKNOWN → Message does not fit any of the above categories.
+      Example: "What is an orange?"
+
+    </string>
+
+    <!-- Theatre Info Response -->
+    <string name="theatre_info">
+        Welcome to our Theatre! We\'re located at Patission 76, Athens. We have to unique stages:\n\nAntoniadou Stage - Perfect for modern, intimate performances.\n\nDerigni Stage - Ideal for grand, classic productions.\n\nWe\'re open daily from 4:00 PM to midnight. Ask us about our current plays or book your tickets today!
+    </string>
+
+    <!-- Plays Info Response -->
+    <string name="plays_info">
+        Here\'s what\'s playing at our theatre:\n\nOedipus Rex – A tragic Greek tale by Sophocles. Oedipus, the King of Thebes, struggles to escape a prophecy that foretells he will kill his father and marry his mother.\n\nHamlet – Shakespeare’s iconic tragedy. Hamlet, the Prince of Denmark, seeks revenge on his uncle Claudius, who has murdered Hamlet’s father to seize the throne.\n\nBoth plays are performed daily at 18:00 and 21:00. Let me know if you want to book tickets or anything else!
+    </string>
+
+    <!-- Booking Response -->
+    <string name="booking_response">Great choice! Which play would you like to book tickets for?</string>
+
+    <!-- Select Performance Response -->
+    <string name="select_performance_response">
+        Awesome! You’ve selected %1$s. Would you like to book tickets?
+    </string>
+
+    <!-- Proceed to Booking Response -->
+    <string name="proceed_to_booking_response">Great! Please select your seats and enter your details to proceed with the booking.</string>
+
+    <!-- View Tickets Response -->
+    <string name="view_tickets_response">Sure! Here’s a summary of your reservations.</string>
+
+    <!-- Contact Response -->
+    <string name="contact_response">Sure! Here\'s how you can reach us:</string>
+
+    <!-- Unknown Response -->
+    <string name="unknown_response">Sorry, but it seems that i cannot understand! Please try again.</string>
+
+    <!-- Failed Response -->
+    <string name="chatbot_failed_response">"Sorry, something went wrong while trying to get a response. Please try again."</string>
+
+    <!-- Performance not selected -->
+    <string name="performance_not_selected">You need to select a performance first before proceeding to booking.</string>
+</resources>

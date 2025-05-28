@@ -1,0 +1,183 @@
+<resources>
+    <!-- General string -->
+    <string name="app_name">Θέατρο ΟΠΑ</string>
+    <string name="top_app_bar_title">Θέατρο ΟΠΑ</string>
+
+    <!-- Home frame message -->
+    <string name="home_help_text">Πώς μπορώ να σας βοηθήσω;</string>
+    <string name="home_learn_about_theatre_message">Μάθετε για το Θέατρό μας</string>
+    <string name="home_learn_about_plays_message">Μάθετε για τις Παραστάσεις</string>
+    <string name="home_book_tickets_message">Κλείστε τα Εισιτήριά σας Τώρα</string>
+    <string name="home_check_tickets_message">Δείτε ή Ακυρώστε Κρατήσεις</string>
+    <string name="home_contact_message">Επικοινωνήστε με Εκπρόσωπο</string>
+    <string name="home_chat_message">Ξεκινήστε Συνομιλία</string>
+
+    <!-- Chatbot frame initial messages -->
+    <string name="chatbot_type_your_text_message">Πληκτρολογήστε το μήνυμά σας</string>
+    <string name="cnatbot_learn_about_theatre_message">Θέλω να μάθω για το θέατρο</string>
+    <string name="cnatbot_learn_about_plays_message">Μπορείτε να μου πείτε για τις παραστάσεις;</string>
+    <string name="cnatbot_book_tickets_message">Θα ήθελα να κλείσω εισιτήρια</string>
+    <string name="cnatbot_check_tickets_message">Θέλω να ελέγξω τα εισιτήριά μου.</string>
+    <string name="cnatbot_contact_message">Θέλω να επικοινωνήσω με έναν εκπρόσωπο.</string>
+
+    <!-- Cancel booking alert dialog -->
+    <string name="cancel_booking_alert_dialog_informative_text">Είστε σίγουροι ότι θέλετε να ακυρώσετε την κράτηση; Όλες οι επιλεγμένες πληροφορίες θα χαθούν.</string>
+    <string name="cancel_booking_alert_dialog_positive_text">Ναι, Ακύρωση</string>
+    <string name="cancel_booking_alert_dialog_negative_text">Όχι, Επιστροφή</string>
+
+    <!-- Confirm booking alert dialog -->
+    <string name="confirm_booking_alert_dialog_informative_text">Επιθυμείτε να επιβεβαιώσετε την κράτηση; Παρακαλώ ελέγξτε ότι όλα τα στοιχεία είναι σωστά.</string>
+    <string name="confirm_booking_alert_dialog_positive_text">Επιβεβαίωση</string>
+    <string name="confirm_booking_alert_dialog_negative_text">Επεξεργασία Στοιχείων</string>
+
+    <!-- Cancel ticket alert dialog -->
+    <string name="cancel_ticket_alert_dialog_informative_text">Είστε σίγουροι ότι θέλετε να ακυρώσετε το εισιτήριο; Η ενέργεια δεν μπορεί να αναιρεθεί.</string>
+    <string name="cancel_ticket_alert_dialog_positive_text">Ακύρωση Εισιτηρίου</string>
+    <string name="cancel_ticket_alert_dialog_negative_text">Διατήρηση Εισιτηρίου</string>
+
+    <!-- Seat selection bottom sheet frame -->
+    <string name="bottom_sheet_seat_selection_frame_select_seats_text">Επιλέξτε θέσεις</string>
+    <string name="bottom_sheet_seat_selection_frame_seat_limit_text">Επιλέξτε έως 4 θέσεις</string>
+
+    <!-- User info bottom sheet frame -->
+    <string name="bottom_sheet_user_info_frame_enter_details_text">Εισάγετε τα στοιχεία σας</string>
+    <string name="bottom_sheet_user_info_frame_close_icon_content_description">Κλείσιμο</string>
+
+    <!-- Name Field -->
+    <string name="bottom_sheet_user_info_frame_label_name">Όνομα</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_name">Εισάγετε το όνομά σας</string>
+
+    <!-- Surname Field -->
+    <string name="bottom_sheet_user_info_frame_label_surname">Επώνυμο</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_surname">Εισάγετε το επώνυμό σας</string>
+
+    <!-- Email Field -->
+    <string name="bottom_sheet_user_info_frame_label_email">Email</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_email">Εισάγετε το email σας</string>
+
+    <!-- Telephone Field -->
+    <string name="bottom_sheet_user_info_frame_label_telephone">Τηλέφωνο</string>
+    <string name="bottom_sheet_user_info_frame_placeholder_telephone">Εισάγετε τον αριθμό τηλεφώνου σας</string>
+
+    <!-- Button -->
+    <string name="bottom_sheet_user_info_frame_button_proceed_to_payment">Συνέχεια στην Πληρωμή</string>
+
+    <!-- Checkout bottom sheet frame -->
+    <string name="bottom_sheet_checkout_frame_title">Ολοκλήρωση Αγοράς</string>
+    <string name="bottom_sheet_checkout_frame_total">Σύνολο: €%1$d</string>
+
+    <!-- Cardholder Name -->
+    <string name="bottom_sheet_checkout_frame_label_cardholder_name">Όνομα Κατόχου Κάρτας</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_cardholder_name">Εισάγετε Όνομα Κατόχου</string>
+
+    <!-- Card Number -->
+    <string name="bottom_sheet_checkout_frame_label_card_number">Αριθμός Κάρτας</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_card_number">Εισάγετε Αριθμό Κάρτας</string>
+
+    <!-- Expiry Date -->
+    <string name="bottom_sheet_checkout_frame_label_expiry_date">Ημερομηνία Λήξης (ΜΜ/ΕΕ)</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_expiry_date">ΜΜ/ΕΕ</string>
+
+    <!-- CVV -->
+    <string name="bottom_sheet_checkout_frame_label_cvv">CVV</string>
+    <string name="bottom_sheet_checkout_frame_placeholder_cvv">Εισάγετε CVV</string>
+
+    <!-- Button -->
+    <string name="bottom_sheet_checkout_frame_confirm_payment">Επιβεβαίωση Πληρωμής</string>
+
+    <!-- View tickets bottom sheet frame -->
+    <string name="bottom_sheet_view_reservations_frame_title">Οι Κρατήσεις σας</string>
+    <string name="bottom_sheet_view_reservations_frame_no_reservations">Δεν έχετε κάνει ακόμα κρατήσεις.</string>
+    <string name="bottom_sheet_view_reservations_frame_card_performance">🎭 %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_delete_icon_content_description">Διαγραφή Εισιτηρίου</string>
+    <string name="bottom_sheet_view_reservations_frame_card_room">📍 Αίθουσα: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_seat">🪑 Θέση: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_date">📅 Ημερομηνία: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_time">⏰ Ώρα: %1$s</string>
+    <string name="bottom_sheet_view_reservations_frame_card_name">👤 Όνομα: %1$s</string>
+
+    <!-- Validators -->
+    <string name="validator_name_blank">Το όνομα δεν μπορεί να είναι κενό</string>
+    <string name="validator_name_too_short">Το όνομα πρέπει να έχει τουλάχιστον 4 χαρακτήρες</string>
+
+    <string name="validator_surname_blank">Το επώνυμο δεν μπορεί να είναι κενό</string>
+    <string name="validator_surname_too_short">Το επώνυμο πρέπει να έχει τουλάχιστον 4 χαρακτήρες</string>
+
+    <string name="validator_email_blank">Το email δεν μπορεί να είναι κενό</string>
+    <string name="validator_email_invalid">Μη έγκυρη μορφή email</string>
+
+    <string name="validator_telephone_blank">Ο αριθμός τηλεφώνου δεν μπορεί να είναι κενός</string>
+    <string name="validator_telephone_too_short">Ο αριθμός τηλεφώνου είναι πολύ μικρός</string>
+    <string name="validator_telephone_invalid_chars">Ο αριθμός τηλεφώνου πρέπει να περιέχει μόνο ψηφία</string>
+
+    <string name="validator_card_number_blank">Ο αριθμός κάρτας δεν μπορεί να είναι κενός</string>
+    <string name="validator_card_number_invalid">Ο αριθμός κάρτας πρέπει να έχει 16 ψηφία</string>
+
+    <string name="validator_expiry_date_blank">Η ημερομηνία λήξης δεν μπορεί να είναι κενή</string>
+    <string name="validator_expiry_date_invalid">Μη έγκυρη μορφή (ΜΜ/ΕΕ)</string>
+
+    <string name="validator_cvv_blank">Το CVV δεν μπορεί να είναι κενό</string>
+    <string name="validator_cvv_invalid">Το CVV πρέπει να έχει 3 ψηφία</string>
+
+    <string name="validator_cardholder_name_blank">Το όνομα κατόχου δεν μπορεί να είναι κενό</string>
+    <string name="validator_cardholder_name_too_short">Πρέπει να έχει τουλάχιστον 4 χαρακτήρες</string>
+
+    <!-- Snackbar messages -->
+    <string name="snackbar_reservation_successful">✅ Η κράτησή σας ολοκληρώθηκε με επιτυχία!</string>
+    <string name="snackbar_reservation_cancel_successful">✅ Η κράτησή σας ακυρώθηκε με επιτυχία.</string>
+
+    <!-- Contact details -->
+    <string name="contact_phone_number">6900000000</string>
+    <string name="contact_email_address">opatheatre@aueb.gr</string>
+    <string name="contact_website">www.aueb.gr</string>
+
+    <string name="chatbot_failed_to_understand_message">Φαίνεται πως δεν καταλαβαίνω! Αν θέλετε κάτι άλλο, παρακαλώ επικοινωνήστε με εκπρόσωπο.</string>
+
+    <!-- Tickets screen -->
+    <string name="bottom_sheet_performance_selection_title">Επιλέξτε Παράσταση</string>
+    <string name="bottom_sheet_performance_selection_label">Διαθέσιμες Παραστάσεις</string>
+    <string name="bottom_sheet_performance_selection_dropdown">Επιλέξτε Παράσταση</string>
+    <string name="bottom_sheet_performance_selection_next">Επόμενο</string>
+
+
+    <!-- Chatbot messages -->
+    <string name="chatbot_response_booking_cancelation_message">Έχετε ακυρώσει τη διαδικασία κράτησης. Αν θέλετε να επιλέξετε άλλη παράσταση, απλώς κάντε κλικ στις παραστάσεις ή ενημερώστε με αν θέλετε κάτι άλλο.</string>
+    <string name="chatbot_response_booking_confirmation_message">Η κράτηση των εισιτηρίων σας ολοκληρώθηκε με επιτυχία. Ενημερώστε με αν θέλετε κάτι άλλο.</string>
+
+    <!-- Theatre Info Response -->
+    <string name="theatre_info">
+        Καλώς ήρθατε στο Θέατρό μας! Βρισκόμαστε στην Πατησίων 76, Αθήνα. Διαθέτουμε δύο μοναδικές σκηνές:\n\nΣκηνή Αντωνιάδου - Ιδανική για σύγχρονες, πιο προσωπικές παραστάσεις.\n\nΣκηνή Δεριγνύ - Ιδανική για μεγάλες, κλασικές παραγωγές.\n\nΛειτουργούμε καθημερινά από τις 16:00 έως τα μεσάνυχτα. Ρωτήστε μας για τις τρέχουσες παραστάσεις ή κάντε κράτηση σήμερα!
+    </string>
+
+    <!-- Plays Info Response -->
+    <string name="plays_info">
+        Αυτή τη στιγμή παίζονται στο θέατρό μας:\n\nΟιδίπους Τύραννος – Μια τραγική ελληνική ιστορία του Σοφοκλή. Ο Οιδίποδας, βασιλιάς της Θήβας, προσπαθεί να ξεφύγει από μια προφητεία που λέει ότι θα σκοτώσει τον πατέρα του και θα παντρευτεί τη μητέρα του.\n\nΆμλετ – Η εμβληματική τραγωδία του Σαίξπηρ. Ο Άμλετ, πρίγκιπας της Δανίας, αναζητά εκδίκηση από τον θείο του Κλαύδιο που δολοφόνησε τον πατέρα του για να πάρει τον θρόνο.\n\nΚαι οι δύο παραστάσεις παίζονται καθημερινά στις 18:00 και στις 21:00.
+    </string>
+
+    <!-- Booking Response -->
+    <string name="booking_response">Εξαιρετική επιλογή! Ποια παράσταση θα θέλατε να παρακολουθήσετε;</string>
+
+    <!-- Select Performance Response -->
+    <string name="select_performance_response">
+        Τέλεια! Επιλέξατε την παράσταση %1$s. Θέλετε να κάνετε κράτηση εισιτηρίων;
+    </string>
+
+    <!-- Proceed to Booking Response -->
+    <string name="proceed_to_booking_response">Τέλεια! Παρακαλώ επιλέξτε τις θέσεις σας και συμπληρώστε τα στοιχεία σας για να συνεχίσετε την κράτηση.</string>
+
+    <!-- View Tickets Response -->
+    <string name="view_tickets_response">Βεβαίως! Εδώ είναι μια σύνοψη των κρατήσεών σας.</string>
+
+    <!-- Contact Response -->
+    <string name="contact_response">Φυσικά! Δείτε πώς μπορείτε να επικοινωνήσετε μαζί μας:</string>
+
+    <!-- Unknown Response -->
+    <string name="unknown_response">Συγγνώμη, αλλά φαίνεται πως δεν κατάλαβα! Παρακαλώ δοκιμάστε ξανά.</string>
+
+    <!-- Failed Response -->
+    <string name="chatbot_failed_response">Συγγνώμη, προέκυψε κάποιο σφάλμα κατά την απόκριση. Παρακαλώ προσπαθήστε ξανά.</string>
+
+    <!-- Performance not selected -->
+    <string name="performance_not_selected">Πρέπει πρώτα να επιλέξετε μια παράσταση πριν προχωρήσετε στην κράτηση.</string>
+
+</resources>
