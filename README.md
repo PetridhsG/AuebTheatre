@@ -11,6 +11,10 @@ The app is designed to:
 - Enable communication with a theater representative
 - Support both natural language chat and menu-based navigation
 
+## 🎥 Walkthrough Video
+
+[![Watch the video](https://img.youtube.com/vi/mE2d8fXswAs/0.jpg)](https://www.youtube.com/watch?v=mE2d8fXswAs)
+
 ## 🌟 Features
 
 - 🔍 **Information Retrieval** – Learn about shows, theaters, and available seats.
@@ -24,12 +28,12 @@ The app is designed to:
 
 ## 🛠 Technologies Used
 
-- **Platform:** Android
-- **Language:** Kotlin
-- **UI Toolkit:** Jetpack Compose + Material 3
-- **Chatbot:** Llama-4-maverick:free via OpenRouter LLM API
-- **Prototyping:** Figma
-- **IDE:** Android Studio
+- **Platform:** Android  
+- **Language:** Kotlin  
+- **UI Toolkit:** Jetpack Compose + Material 3  
+- **Chatbot:** Llama-4-maverick:free via OpenRouter LLM API  
+- **Prototyping:** Figma  
+- **IDE:** Android Studio  
 
 ## ⚠️ Important: Local Configuration Required
 
